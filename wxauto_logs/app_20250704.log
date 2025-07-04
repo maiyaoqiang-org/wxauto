@@ -1,0 +1,868 @@
+2025-07-04 11:13:03 [wxauto] [DEBUG] [wx.py:31]  开始监听
+2025-07-04 11:13:04 [wxauto] [DEBUG] [main.py:226]  当前会话列表获取新消息
+2025-07-04 11:13:04 [wxauto] [DEBUG] [chatbox.py:305]  消息列表不存在，返回空列表
+2025-07-04 11:13:12 [wxauto] [DEBUG] [wx.py:31]  开始监听
+2025-07-04 11:13:13 [wxauto] [DEBUG] [main.py:226]  当前会话列表获取新消息
+2025-07-04 11:13:14 [wxauto] [DEBUG] [chatbox.py:341]  获取3条新消息，基准消息内容为：意大利6岁和9岁“幽灵儿童”在树林被发现，穿尿布无法说话，父亲辩称为避免感染新冠
+2025-07-04 11:13:14 [wxauto] [DEBUG] [chatbox.py:290]  未匹配到基准消息，以最后一条消息为基准：
+2025-07-04 11:13:14 [wxauto] [DEBUG] [chatbox.py:299]  未匹配到第3条消息，返回空列表
+2025-07-04 11:13:52 [wxauto] [DEBUG] [wx.py:31]  开始监听
+2025-07-04 11:13:53 [wxauto] [DEBUG] [main.py:226]  当前会话列表获取新消息
+2025-07-04 11:13:53 [wxauto] [DEBUG] [chatbox.py:305]  消息列表不存在，返回空列表
+2025-07-04 11:14:17 [wxauto] [DEBUG] [wx.py:31]  开始监听
+2025-07-04 11:14:29 [wxauto] [DEBUG] [wx.py:31]  开始监听
+2025-07-04 11:14:45 [wxauto] [DEBUG] [wx.py:31]  开始监听
+2025-07-04 11:14:46 [wxauto] [DEBUG] [sessionbox.py:165]  回到会话列表顶部
+2025-07-04 11:14:49 [wxauto] [DEBUG] [main.py:239]  没有新消息
+2025-07-04 11:16:11 [wxauto] [DEBUG] [wx.py:31]  开始监听
+2025-07-04 11:16:12 [wxauto] [DEBUG] [sessionbox.py:165]  回到会话列表顶部
+2025-07-04 11:16:15 [wxauto] [DEBUG] [main.py:239]  没有新消息
+2025-07-04 11:16:15 [wxauto] [DEBUG] [sessionbox.py:63]  切换聊天窗口: 文件传输助手, False, False, 0.5
+2025-07-04 11:16:16 [wxauto] [DEBUG] [sessionbox.py:63]  切换聊天窗口: 测试好友, False, False, 0.5
+2025-07-04 11:16:47 [wxauto] [DEBUG] [wx.py:31]  开始监听
+2025-07-04 11:16:48 [wxauto] [DEBUG] [sessionbox.py:165]  回到会话列表顶部
+2025-07-04 11:16:51 [wxauto] [DEBUG] [main.py:239]  没有新消息
+2025-07-04 11:16:51 [wxauto] [DEBUG] [sessionbox.py:63]  切换聊天窗口: 文件传输助手, False, False, 0.5
+2025-07-04 11:16:52 [wxauto] [DEBUG] [sessionbox.py:63]  切换聊天窗口: 麦耀强🙈, False, False, 0.5
+2025-07-04 11:18:04 [wxauto] [DEBUG] [wx.py:31]  开始监听
+2025-07-04 11:18:05 [wxauto] [DEBUG] [sessionbox.py:165]  回到会话列表顶部
+2025-07-04 11:18:08 [wxauto] [DEBUG] [main.py:239]  没有新消息
+2025-07-04 11:18:08 [wxauto] [DEBUG] [sessionbox.py:63]  切换聊天窗口: 文件传输助手, False, False, 0.5
+2025-07-04 11:18:09 [wxauto] [DEBUG] [sessionbox.py:63]  切换聊天窗口: 麦耀强🙈, False, False, 0.5
+2025-07-04 11:19:05 [wxauto] [DEBUG] [wx.py:31]  开始监听
+2025-07-04 11:19:05 [wxauto] [DEBUG] [sessionbox.py:165]  回到会话列表顶部
+2025-07-04 11:19:08 [wxauto] [DEBUG] [main.py:239]  没有新消息
+2025-07-04 11:19:08 [wxauto] [DEBUG] [sessionbox.py:63]  切换聊天窗口: 文件传输助手, False, False, 0.5
+2025-07-04 11:19:09 [wxauto] [DEBUG] [sessionbox.py:63]  切换聊天窗口: 麦耀强🙈, False, False, 0.5
+2025-07-04 11:20:55 [wxauto] [DEBUG] [wx.py:31]  开始监听
+2025-07-04 11:22:03 [wxauto] [DEBUG] [wx.py:31]  开始监听
+2025-07-04 11:22:49 [wxauto] [DEBUG] [wx.py:31]  开始监听
+2025-07-04 11:22:50 [wxauto] [DEBUG] [sessionbox.py:63]  切换聊天窗口: 文件传输助手, False, False, 0.5
+2025-07-04 11:23:08 [wxauto] [DEBUG] [wx.py:31]  开始监听
+2025-07-04 11:23:08 [wxauto] [DEBUG] [sessionbox.py:63]  切换聊天窗口: 文件传输助手, False, False, 0.5
+2025-07-04 11:23:11 [wxauto] [DEBUG] [msg.py:80]  content: 你好, length: 8
+2025-07-04 11:23:11 [wxauto] [DEBUG] [msg.py:80]  content: 你好, length: 8
+2025-07-04 11:23:43 [wxauto] [DEBUG] [wx.py:31]  开始监听
+2025-07-04 11:23:43 [wxauto] [DEBUG] [sessionbox.py:63]  切换聊天窗口: 麦耀强🙈, False, False, 0.5
+2025-07-04 11:23:45 [wxauto] [DEBUG] [msg.py:80]  content: 你好呀, length: 8
+2025-07-04 11:23:45 [wxauto] [DEBUG] [msg.py:80]  content: 很高兴认识你, length: 8
+2025-07-04 11:23:45 [wxauto] [DEBUG] [msg.py:80]  content: 你好, length: 8
+2025-07-04 11:23:59 [wxauto] [DEBUG] [wx.py:31]  开始监听
+2025-07-04 11:23:59 [wxauto] [DEBUG] [sessionbox.py:63]  切换聊天窗口: 麦耀强🙈, False, False, 0.5
+2025-07-04 11:24:01 [wxauto] [DEBUG] [msg.py:80]  content: 你好呀, length: 8
+2025-07-04 11:24:01 [wxauto] [DEBUG] [msg.py:80]  content: 很高兴认识你, length: 8
+2025-07-04 11:24:01 [wxauto] [DEBUG] [msg.py:80]  content: 你好, length: 8
+2025-07-04 11:24:01 [wxauto] [DEBUG] [msg.py:80]  content: 你好, length: 8
+2025-07-04 11:33:17 [wxauto] [DEBUG] [wx.py:31]  开始监听
+2025-07-04 11:35:14 [wxauto] [DEBUG] [wx.py:31]  开始监听
+2025-07-04 11:35:14 [wxauto] [DEBUG] [sessionbox.py:63]  切换聊天窗口: 测试群, False, False, 0.5
+2025-07-04 11:35:41 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 11:35:43 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 11:35:45 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 11:35:47 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 11:35:49 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 11:35:51 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 11:35:53 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 11:35:55 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 11:35:55 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 11:35:58 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 11:35:58 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 11:36:00 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 11:36:00 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 11:36:02 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 11:36:02 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 11:36:04 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 11:36:04 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 11:36:06 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 11:36:06 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 11:36:09 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 11:36:09 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 11:36:11 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 11:36:11 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 11:36:13 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 11:36:13 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 11:36:15 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 11:36:15 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 11:36:17 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 11:36:17 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 11:36:20 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 11:36:20 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 11:36:22 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 11:36:22 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 11:36:29 [wxauto] [DEBUG] [wx.py:31]  开始监听
+2025-07-04 11:36:29 [wxauto] [DEBUG] [sessionbox.py:63]  切换聊天窗口: 测试群, False, False, 0.5
+2025-07-04 11:36:31 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 11:36:31 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 11:36:33 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 11:36:33 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 11:36:35 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 11:36:35 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 11:36:37 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 11:36:37 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:40:47 [wxauto] [DEBUG] [wx.py:31]  开始监听
+2025-07-04 13:40:47 [wxauto] [DEBUG] [sessionbox.py:63]  切换聊天窗口: 测试群, False, False, 0.5
+2025-07-04 13:40:49 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:40:49 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:40:51 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:40:51 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:40:53 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:40:53 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:40:55 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:40:55 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:40:57 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:40:57 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:40:59 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:40:59 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:41:02 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:41:02 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:41:04 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:41:04 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:41:06 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:41:06 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:41:08 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:41:08 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:41:10 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:41:10 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:41:12 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:41:12 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:41:12 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:41:14 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:41:15 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:41:15 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:41:17 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:41:17 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:41:17 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:41:19 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:41:19 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:41:19 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:41:21 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:41:21 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:41:21 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:41:23 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:41:24 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:41:24 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:41:26 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:41:26 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:41:26 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:41:28 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:41:28 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:41:28 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:41:30 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:41:30 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:41:30 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:41:33 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:41:33 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:41:33 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:41:35 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:41:35 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:41:35 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:41:37 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:41:37 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:41:37 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:41:39 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:41:39 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:41:40 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:41:42 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:41:42 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:41:42 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:41:44 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:41:44 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:41:44 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:41:46 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:41:46 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:41:46 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:41:48 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:41:48 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:41:49 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:41:51 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:41:51 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:41:51 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:41:53 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:41:53 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:41:53 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:41:55 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:41:55 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:41:55 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:41:57 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:41:57 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:41:58 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:42:00 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:42:00 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:42:00 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:42:02 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:42:02 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:42:02 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:42:04 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:42:04 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:42:04 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:42:06 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:42:06 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:42:06 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:42:09 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:42:09 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:42:09 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:42:11 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:42:11 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:42:11 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:42:13 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:42:13 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:42:13 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:42:15 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:42:15 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:42:15 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:42:18 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:42:18 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:42:18 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:42:20 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:42:20 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:42:20 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:42:22 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:42:22 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:42:22 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:42:24 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:42:24 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:42:24 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:42:27 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:42:27 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:42:27 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:42:29 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:42:29 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:42:29 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:42:31 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:42:31 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:42:31 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:42:33 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:42:33 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:42:33 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:42:35 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:42:36 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:42:36 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:42:38 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:42:38 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:42:38 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:42:40 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:42:40 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:42:40 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:42:42 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:42:42 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:42:42 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:42:44 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:42:44 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:42:45 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:42:47 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:42:47 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:42:47 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:42:49 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:42:49 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:42:49 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:42:51 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:42:51 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:42:51 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:42:54 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:42:54 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:42:54 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:42:56 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:42:56 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:42:56 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:42:58 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:42:58 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:42:58 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:43:00 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:43:00 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:43:00 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:43:03 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:43:03 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:43:03 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:43:05 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:43:05 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:43:05 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:43:07 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:43:07 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:43:07 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:43:09 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:43:09 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:43:09 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:43:12 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:43:12 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:43:12 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:43:14 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:43:14 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:43:14 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:43:16 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:43:16 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:43:16 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:43:18 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:43:18 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:43:18 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:43:21 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:43:21 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:43:21 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:43:23 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:43:23 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:43:23 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:43:25 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:43:25 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:43:25 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:43:27 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:43:27 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:43:27 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:43:30 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:43:30 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:43:30 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:43:32 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:43:32 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:43:32 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:43:34 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:43:34 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:43:34 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:43:36 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:43:36 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:43:36 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:43:38 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:43:39 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:43:39 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:43:41 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:43:41 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:43:41 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:43:43 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:43:43 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:43:43 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:43:45 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:43:45 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:43:45 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:43:48 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:43:48 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:43:48 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:43:50 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:43:50 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:43:50 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:43:52 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:43:52 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:43:52 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:43:54 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:43:54 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:43:54 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:43:56 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:43:57 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:43:57 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:43:59 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:43:59 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:43:59 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:44:01 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:44:01 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:44:01 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:44:03 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:44:03 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:44:03 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:44:05 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:44:06 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:44:06 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:44:08 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:44:08 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:44:08 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:44:10 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:44:10 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:44:10 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:44:12 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:44:12 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:44:12 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:44:14 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:44:14 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:44:15 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:44:17 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:44:17 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:44:17 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:44:19 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:44:19 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:44:19 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:44:21 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:44:21 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:44:21 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:44:23 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:44:23 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:44:24 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:44:26 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:44:26 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:44:26 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:44:28 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:44:28 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:44:28 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:44:30 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:44:30 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:44:30 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:44:32 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:44:32 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:44:33 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:44:35 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:44:35 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:44:35 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:44:37 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:44:37 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:44:37 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:44:39 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:44:39 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:44:39 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:44:45 [wxauto] [DEBUG] [wx.py:31]  开始监听
+2025-07-04 13:44:46 [wxauto] [DEBUG] [sessionbox.py:63]  切换聊天窗口: 测试群, False, False, 0.5
+2025-07-04 13:44:47 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:44:47 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:44:47 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:44:49 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:44:49 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:44:49 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:44:51 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:44:51 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:44:51 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:44:54 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:44:54 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:44:54 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:46:00 [wxauto] [DEBUG] [wx.py:31]  开始监听
+2025-07-04 13:46:00 [wxauto] [DEBUG] [sessionbox.py:63]  切换聊天窗口: 测试群, False, False, 0.5
+2025-07-04 13:46:01 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:46:01 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:46:01 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:46:28 [wxauto] [DEBUG] [wx.py:31]  开始监听
+2025-07-04 13:46:28 [wxauto] [DEBUG] [sessionbox.py:63]  切换聊天窗口: 测试群, False, False, 0.5
+2025-07-04 13:46:29 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:46:29 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:46:29 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:46:41 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:46:41 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:46:41 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:46:41 [wxauto] [DEBUG] [msg.py:80]  content: 你好, length: 8
+2025-07-04 13:46:41 [wxauto] [DEBUG] [msg.py:80]  content: 你好, length: 8
+2025-07-04 13:53:55 [wxauto] [DEBUG] [wx.py:31]  开始监听
+2025-07-04 13:53:55 [wxauto] [DEBUG] [sessionbox.py:63]  切换聊天窗口: 测试群, False, False, 0.5
+2025-07-04 13:54:01 [wxauto] [DEBUG] [sessionbox.py:63]  切换聊天窗口: 测试群, False, False, 0.5
+2025-07-04 13:54:46 [wxauto] [DEBUG] [wx.py:31]  开始监听
+2025-07-04 13:54:47 [wxauto] [DEBUG] [sessionbox.py:63]  切换聊天窗口: 测试群, False, False, 0.5
+2025-07-04 13:54:48 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 13:54:48 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 13:54:48 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 13:54:48 [wxauto] [DEBUG] [msg.py:80]  content: 你好, length: 8
+2025-07-04 13:54:48 [wxauto] [DEBUG] [msg.py:80]  content: 你好, length: 8
+2025-07-04 13:54:48 [wxauto] [DEBUG] [msg.py:80]  content: 你好, length: 8
+2025-07-04 13:54:48 [wxauto] [DEBUG] [msg.py:80]  content: 你好, length: 8
+2025-07-04 14:02:04 [wxauto] [DEBUG] [wx.py:31]  开始监听
+2025-07-04 14:02:04 [wxauto] [DEBUG] [sessionbox.py:63]  切换聊天窗口: 测试群, False, False, 0.5
+2025-07-04 14:02:06 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 14:02:06 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 14:02:06 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 14:02:06 [wxauto] [DEBUG] [msg.py:80]  content: 你好, length: 8
+2025-07-04 14:02:06 [wxauto] [DEBUG] [msg.py:80]  content: 你好, length: 8
+2025-07-04 14:02:06 [wxauto] [DEBUG] [msg.py:80]  content: 你好, length: 8
+2025-07-04 14:02:07 [wxauto] [DEBUG] [msg.py:80]  content: 你好, length: 8
+2025-07-04 14:10:30 [wxauto] [DEBUG] [wx.py:31]  开始监听
+2025-07-04 14:10:30 [wxauto] [DEBUG] [sessionbox.py:63]  切换聊天窗口: 测试群, False, False, 0.5
+2025-07-04 14:10:31 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 14:10:31 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 14:10:31 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 14:10:31 [wxauto] [DEBUG] [msg.py:80]  content: 你好, length: 8
+2025-07-04 14:10:31 [wxauto] [DEBUG] [msg.py:80]  content: 你好, length: 8
+2025-07-04 14:10:31 [wxauto] [DEBUG] [msg.py:80]  content: 你好, length: 8
+2025-07-04 14:10:31 [wxauto] [DEBUG] [msg.py:80]  content: 你好, length: 8
+2025-07-04 14:10:31 [wxauto] [DEBUG] [msg.py:80]  content: 你好, length: 8
+2025-07-04 14:10:31 [wxauto] [DEBUG] [msg.py:80]  content: 你好, length: 8
+2025-07-04 14:10:31 [wxauto] [DEBUG] [sessionbox.py:63]  切换聊天窗口: 麦耀强🙈, False, False, 0.5
+2025-07-04 14:10:34 [wxauto] [DEBUG] [sessionbox.py:63]  切换聊天窗口: 麦耀强🙈, False, False, 0.5
+2025-07-04 14:10:46 [wxauto] [DEBUG] [msg.py:80]  content: 你好呀, length: 8
+2025-07-04 14:10:46 [wxauto] [DEBUG] [msg.py:80]  content: 很高兴认识你, length: 8
+2025-07-04 14:10:46 [wxauto] [DEBUG] [msg.py:80]  content: 你好, length: 8
+2025-07-04 14:10:46 [wxauto] [DEBUG] [msg.py:80]  content: 你好, length: 8
+2025-07-04 14:10:46 [wxauto] [DEBUG] [msg.py:80]  content: 你好，麦耀强🙈。我是麦，已经收到你的消息了。, length: 8
+2025-07-04 14:10:46 [wxauto] [DEBUG] [msg.py:80]  content: 你好，麦耀强🙈。我是麦，已经收到你的消息了。, length: 8
+2025-07-04 14:10:56 [wxauto] [DEBUG] [msg.py:80]  content: 你好呀, length: 8
+2025-07-04 14:10:56 [wxauto] [DEBUG] [msg.py:80]  content: 很高兴认识你, length: 8
+2025-07-04 14:10:56 [wxauto] [DEBUG] [msg.py:80]  content: 你好, length: 8
+2025-07-04 14:10:56 [wxauto] [DEBUG] [msg.py:80]  content: 你好, length: 8
+2025-07-04 14:10:56 [wxauto] [DEBUG] [msg.py:80]  content: 你好，麦耀强🙈。我是麦，已经收到你的消息了。, length: 8
+2025-07-04 14:10:56 [wxauto] [DEBUG] [msg.py:80]  content: 你好，麦耀强🙈。我是麦，已经收到你的消息了。, length: 8
+2025-07-04 14:11:06 [wxauto] [DEBUG] [msg.py:80]  content: 你好呀, length: 8
+2025-07-04 14:11:06 [wxauto] [DEBUG] [msg.py:80]  content: 很高兴认识你, length: 8
+2025-07-04 14:11:06 [wxauto] [DEBUG] [msg.py:80]  content: 你好, length: 8
+2025-07-04 14:11:07 [wxauto] [DEBUG] [msg.py:80]  content: 你好, length: 8
+2025-07-04 14:11:07 [wxauto] [DEBUG] [msg.py:80]  content: 你好，麦耀强🙈。我是麦，已经收到你的消息了。, length: 8
+2025-07-04 14:11:07 [wxauto] [DEBUG] [msg.py:80]  content: 你好，麦耀强🙈。我是麦，已经收到你的消息了。, length: 8
+2025-07-04 14:11:17 [wxauto] [DEBUG] [msg.py:80]  content: 你好呀, length: 8
+2025-07-04 14:11:17 [wxauto] [DEBUG] [msg.py:80]  content: 很高兴认识你, length: 8
+2025-07-04 14:11:17 [wxauto] [DEBUG] [msg.py:80]  content: 你好, length: 8
+2025-07-04 14:11:17 [wxauto] [DEBUG] [msg.py:80]  content: 你好, length: 8
+2025-07-04 14:11:17 [wxauto] [DEBUG] [msg.py:80]  content: 你好，麦耀强🙈。我是麦，已经收到你的消息了。, length: 8
+2025-07-04 14:11:17 [wxauto] [DEBUG] [msg.py:80]  content: 你好，麦耀强🙈。我是麦，已经收到你的消息了。, length: 8
+2025-07-04 14:11:27 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 14:11:27 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 14:11:27 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 14:11:27 [wxauto] [DEBUG] [msg.py:80]  content: 你好, length: 8
+2025-07-04 14:11:27 [wxauto] [DEBUG] [msg.py:80]  content: 你好, length: 8
+2025-07-04 14:11:27 [wxauto] [DEBUG] [msg.py:80]  content: 你好, length: 8
+2025-07-04 14:11:27 [wxauto] [DEBUG] [msg.py:80]  content: 你好, length: 8
+2025-07-04 14:11:27 [wxauto] [DEBUG] [msg.py:80]  content: 你好, length: 8
+2025-07-04 14:11:27 [wxauto] [DEBUG] [msg.py:80]  content: 你好, length: 8
+2025-07-04 14:11:27 [wxauto] [DEBUG] [sessionbox.py:63]  切换聊天窗口: 麦耀强🙈, False, False, 0.5
+2025-07-04 14:11:29 [wxauto] [DEBUG] [sessionbox.py:63]  切换聊天窗口: 麦耀强🙈, False, False, 0.5
+2025-07-04 14:11:41 [wxauto] [DEBUG] [msg.py:80]  content: 哈哈, length: 8
+2025-07-04 14:11:41 [wxauto] [DEBUG] [msg.py:80]  content: @麦 哈哈, length: 10
+2025-07-04 14:11:41 [wxauto] [DEBUG] [msg.py:80]  content: @麦 (=°ω°)ノ, length: 10
+2025-07-04 14:11:42 [wxauto] [DEBUG] [msg.py:80]  content: 你好, length: 8
+2025-07-04 14:11:42 [wxauto] [DEBUG] [msg.py:80]  content: 你好, length: 8
+2025-07-04 14:11:42 [wxauto] [DEBUG] [msg.py:80]  content: 你好, length: 8
+2025-07-04 14:11:42 [wxauto] [DEBUG] [msg.py:80]  content: 你好, length: 8
+2025-07-04 14:11:42 [wxauto] [DEBUG] [msg.py:80]  content: 你好, length: 8
+2025-07-04 14:11:42 [wxauto] [DEBUG] [msg.py:80]  content: 你好, length: 8
+2025-07-04 14:11:42 [wxauto] [DEBUG] [sessionbox.py:63]  切换聊天窗口: 麦耀强🙈, False, False, 0.5
+2025-07-04 14:11:43 [wxauto] [DEBUG] [sessionbox.py:63]  切换聊天窗口: 麦耀强🙈, False, False, 0.5
+2025-07-04 14:23:58 [wxauto] [DEBUG] [wx.py:31]  开始监听
+2025-07-04 14:24:28 [wxauto] [DEBUG] [wx.py:31]  开始监听
+2025-07-04 14:24:28 [wxauto] [DEBUG] [sessionbox.py:63]  切换聊天窗口: 测试群, False, False, 0.5
+2025-07-04 14:24:29 [wxauto] [DEBUG] [main.py:190]  测试群 切换到聊天窗口: 测试群
+2025-07-04 14:24:29 [wxauto] [DEBUG] [sessionbox.py:147]  打开独立窗口: 测试群
+2025-07-04 14:24:30 [wxauto] [DEBUG] [sessionbox.py:151]  找到会话: 测试群
+2025-07-04 14:24:50 [wxauto] [DEBUG] [msg.py:80]  content: 你好@麦 , length: 10
+2025-07-04 14:24:50 [wxauto] [DEBUG] [wx.py:208]  [system base]获取到新消息：测试群 - 以下为新消息
+2025-07-04 14:24:50 [wxauto] [DEBUG] [wx.py:54]  监听消息回调发生错误：Traceback (most recent call last):
+  File "D:\Python\Lib\site-packages\wxauto\wx.py", line 52, in _safe_callback
+    callback(msg, chat)
+  File "d:\oldSource\work-personal\wxauto\main.py", line 8, in on_message
+    if wx.nickname in msg.at_list:
+                      ^^^^^^^^^^^
+AttributeError: 'SystemMessage' object has no attribute 'at_list'
+
+2025-07-04 14:24:50 [wxauto] [DEBUG] [wx.py:208]  [friend text]获取到新消息：测试群 - 你好@麦 
+2025-07-04 14:24:50 [wxauto] [DEBUG] [wx.py:54]  监听消息回调发生错误：Traceback (most recent call last):
+  File "D:\Python\Lib\site-packages\wxauto\wx.py", line 52, in _safe_callback
+    callback(msg, chat)
+  File "d:\oldSource\work-personal\wxauto\main.py", line 8, in on_message
+    if wx.nickname in msg.at_list:
+                      ^^^^^^^^^^^
+AttributeError: 'FriendTextMessage' object has no attribute 'at_list'
+
+2025-07-04 14:25:12 [wxauto] [DEBUG] [wx.py:342]  wxauto("麦") shutdown
+2025-07-04 14:27:22 [wxauto] [DEBUG] [wx.py:31]  开始监听
+2025-07-04 14:27:22 [wxauto] [DEBUG] [main.py:186]  测试群 获取到已存在的子窗口: <wxauto - WeChatSubWnd object("测试群")>
+2025-07-04 14:51:12 [wxauto] [DEBUG] [wx.py:342]  wxauto("麦") shutdown
+2025-07-04 14:51:23 [wxauto] [DEBUG] [wx.py:31]  开始监听
+2025-07-04 14:51:24 [wxauto] [DEBUG] [main.py:186]  测试群 获取到已存在的子窗口: <wxauto - WeChatSubWnd object("测试群")>
+2025-07-04 14:51:42 [wxauto] [DEBUG] [msg.py:80]  content: @麦 1, length: 10
+2025-07-04 14:51:42 [wxauto] [DEBUG] [wx.py:208]  [system base]获取到新消息：测试群 - 以下为新消息
+2025-07-04 14:51:43 [wxauto] [DEBUG] [wx.py:54]  监听消息回调发生错误：Traceback (most recent call last):
+  File "D:\Python\Lib\site-packages\wxauto\wx.py", line 52, in _safe_callback
+    callback(msg, chat)
+  File "d:\oldSource\work-personal\wxauto\main.py", line 7, in on_message
+    print(msg.at_list)
+          ^^^^^^^^^^^
+AttributeError: 'SystemMessage' object has no attribute 'at_list'
+
+2025-07-04 14:51:43 [wxauto] [DEBUG] [wx.py:208]  [friend text]获取到新消息：测试群 - @麦 1
+2025-07-04 14:51:43 [wxauto] [DEBUG] [wx.py:54]  监听消息回调发生错误：Traceback (most recent call last):
+  File "D:\Python\Lib\site-packages\wxauto\wx.py", line 52, in _safe_callback
+    callback(msg, chat)
+  File "d:\oldSource\work-personal\wxauto\main.py", line 7, in on_message
+    print(msg.at_list)
+          ^^^^^^^^^^^
+AttributeError: 'FriendTextMessage' object has no attribute 'at_list'
+
+2025-07-04 14:52:12 [wxauto] [DEBUG] [wx.py:342]  wxauto("麦") shutdown
+2025-07-04 14:52:52 [wxauto] [DEBUG] [wx.py:31]  开始监听
+2025-07-04 14:52:52 [wxauto] [DEBUG] [main.py:186]  测试群 获取到已存在的子窗口: <wxauto - WeChatSubWnd object("测试群")>
+2025-07-04 14:53:36 [wxauto] [DEBUG] [msg.py:80]  content: 1, length: 10
+2025-07-04 14:53:36 [wxauto] [DEBUG] [wx.py:208]  [system base]获取到新消息：测试群 - 以下为新消息
+2025-07-04 14:53:36 [wxauto] [DEBUG] [wx.py:54]  监听消息回调发生错误：Traceback (most recent call last):
+  File "D:\Python\Lib\site-packages\wxauto\wx.py", line 52, in _safe_callback
+    callback(msg, chat)
+  File "d:\oldSource\work-personal\wxauto\main.py", line 9, in on_message
+    if wx.nickname in msg.at_list:
+                      ^^^^^^^^^^^
+AttributeError: 'SystemMessage' object has no attribute 'at_list'
+
+2025-07-04 14:53:36 [wxauto] [DEBUG] [wx.py:208]  [friend text]获取到新消息：测试群 - 1
+2025-07-04 14:53:36 [wxauto] [DEBUG] [wx.py:54]  监听消息回调发生错误：Traceback (most recent call last):
+  File "D:\Python\Lib\site-packages\wxauto\wx.py", line 52, in _safe_callback
+    callback(msg, chat)
+  File "d:\oldSource\work-personal\wxauto\main.py", line 9, in on_message
+    if wx.nickname in msg.at_list:
+                      ^^^^^^^^^^^
+AttributeError: 'FriendTextMessage' object has no attribute 'at_list'
+
+2025-07-04 14:54:34 [wxauto] [DEBUG] [wx.py:342]  wxauto("麦") shutdown
+2025-07-04 14:54:39 [wxauto] [DEBUG] [wx.py:31]  开始监听
+2025-07-04 14:54:39 [wxauto] [DEBUG] [main.py:186]  测试群 获取到已存在的子窗口: <wxauto - WeChatSubWnd object("测试群")>
+2025-07-04 14:54:50 [wxauto] [DEBUG] [msg.py:80]  content: 1, length: 10
+2025-07-04 14:54:50 [wxauto] [DEBUG] [wx.py:208]  [friend text]获取到新消息：测试群 - 1
+2025-07-04 14:54:50 [wxauto] [DEBUG] [wx.py:54]  监听消息回调发生错误：Traceback (most recent call last):
+  File "D:\Python\Lib\site-packages\wxauto\wx.py", line 52, in _safe_callback
+    callback(msg, chat)
+  File "d:\oldSource\work-personal\wxauto\main.py", line 9, in on_message
+    print(msg.at_list)
+          ^^^^^^^^^^^
+AttributeError: 'FriendTextMessage' object has no attribute 'at_list'
+
+2025-07-04 14:55:03 [wxauto] [DEBUG] [msg.py:80]  content: @麦 , length: 10
+2025-07-04 14:55:03 [wxauto] [DEBUG] [wx.py:208]  [system base]获取到新消息：测试群 - 以下为新消息
+2025-07-04 14:55:03 [wxauto] [DEBUG] [wx.py:54]  监听消息回调发生错误：Traceback (most recent call last):
+  File "D:\Python\Lib\site-packages\wxauto\wx.py", line 52, in _safe_callback
+    callback(msg, chat)
+  File "d:\oldSource\work-personal\wxauto\main.py", line 9, in on_message
+    print(msg.at_list)
+          ^^^^^^^^^^^
+AttributeError: 'SystemMessage' object has no attribute 'at_list'
+
+2025-07-04 14:55:03 [wxauto] [DEBUG] [wx.py:208]  [friend text]获取到新消息：测试群 - @麦 
+2025-07-04 14:55:03 [wxauto] [DEBUG] [wx.py:54]  监听消息回调发生错误：Traceback (most recent call last):
+  File "D:\Python\Lib\site-packages\wxauto\wx.py", line 52, in _safe_callback
+    callback(msg, chat)
+  File "d:\oldSource\work-personal\wxauto\main.py", line 9, in on_message
+    print(msg.at_list)
+          ^^^^^^^^^^^
+AttributeError: 'FriendTextMessage' object has no attribute 'at_list'
+
+2025-07-04 14:55:55 [wxauto] [DEBUG] [wx.py:342]  wxauto("麦") shutdown
+2025-07-04 14:56:01 [wxauto] [DEBUG] [wx.py:31]  开始监听
+2025-07-04 14:56:01 [wxauto] [DEBUG] [main.py:186]  测试群 获取到已存在的子窗口: <wxauto - WeChatSubWnd object("测试群")>
+2025-07-04 14:56:12 [wxauto] [DEBUG] [msg.py:80]  content: @麦 @Mc-weiran🙈 , length: 10
+2025-07-04 14:56:12 [wxauto] [DEBUG] [wx.py:208]  [system base]获取到新消息：测试群 - 以下为新消息
+2025-07-04 14:56:12 [wxauto] [DEBUG] [wx.py:54]  监听消息回调发生错误：Traceback (most recent call last):
+  File "D:\Python\Lib\site-packages\wxauto\wx.py", line 52, in _safe_callback
+    callback(msg, chat)
+  File "d:\oldSource\work-personal\wxauto\main.py", line 9, in on_message
+    print(msg.at_list)
+          ^^^^^^^^^^^
+AttributeError: 'SystemMessage' object has no attribute 'at_list'
+
+2025-07-04 14:56:12 [wxauto] [DEBUG] [wx.py:208]  [friend text]获取到新消息：测试群 - @麦 @Mc-weiran🙈 
+2025-07-04 14:56:12 [wxauto] [DEBUG] [wx.py:54]  监听消息回调发生错误：Traceback (most recent call last):
+  File "D:\Python\Lib\site-packages\wxauto\wx.py", line 52, in _safe_callback
+    callback(msg, chat)
+  File "d:\oldSource\work-personal\wxauto\main.py", line 9, in on_message
+    print(msg.at_list)
+          ^^^^^^^^^^^
+AttributeError: 'FriendTextMessage' object has no attribute 'at_list'
+
+2025-07-04 14:58:40 [wxauto] [DEBUG] [wx.py:342]  wxauto("麦") shutdown
+2025-07-04 14:58:45 [wxauto] [DEBUG] [wx.py:31]  开始监听
+2025-07-04 14:58:46 [wxauto] [DEBUG] [sessionbox.py:63]  切换聊天窗口: 测试群, False, False, 0.5
+2025-07-04 14:58:47 [wxauto] [DEBUG] [main.py:190]  测试群 切换到聊天窗口: 测试群
+2025-07-04 14:58:47 [wxauto] [DEBUG] [sessionbox.py:147]  打开独立窗口: 测试群
+2025-07-04 14:58:47 [wxauto] [DEBUG] [sessionbox.py:151]  找到会话: 测试群
+2025-07-04 14:58:58 [wxauto] [DEBUG] [msg.py:80]  content: @麦 , length: 10
+2025-07-04 14:58:58 [wxauto] [DEBUG] [wx.py:208]  [system base]获取到新消息：测试群 - 以下为新消息
+2025-07-04 14:58:58 [wxauto] [DEBUG] [wx.py:54]  监听消息回调发生错误：Traceback (most recent call last):
+  File "D:\Python\Lib\site-packages\wxauto\wx.py", line 52, in _safe_callback
+    callback(msg, chat)
+  File "d:\oldSource\work-personal\wxauto\main.py", line 9, in on_message
+    print(msg.at_list)
+          ^^^^^^^^^^^
+AttributeError: 'SystemMessage' object has no attribute 'at_list'
+
+2025-07-04 14:58:58 [wxauto] [DEBUG] [wx.py:208]  [friend text]获取到新消息：测试群 - @麦 
+2025-07-04 14:58:58 [wxauto] [DEBUG] [wx.py:54]  监听消息回调发生错误：Traceback (most recent call last):
+  File "D:\Python\Lib\site-packages\wxauto\wx.py", line 52, in _safe_callback
+    callback(msg, chat)
+  File "d:\oldSource\work-personal\wxauto\main.py", line 9, in on_message
+    print(msg.at_list)
+          ^^^^^^^^^^^
+AttributeError: 'FriendTextMessage' object has no attribute 'at_list'
+
+2025-07-04 14:59:21 [wxauto] [DEBUG] [msg.py:80]  content: [笑脸], length: 10
+2025-07-04 14:59:21 [wxauto] [DEBUG] [wx.py:208]  [system base]获取到新消息：测试群 - 以下为新消息
+2025-07-04 14:59:21 [wxauto] [DEBUG] [wx.py:54]  监听消息回调发生错误：Traceback (most recent call last):
+  File "D:\Python\Lib\site-packages\wxauto\wx.py", line 52, in _safe_callback
+    callback(msg, chat)
+  File "d:\oldSource\work-personal\wxauto\main.py", line 9, in on_message
+    print(msg.at_list)
+          ^^^^^^^^^^^
+AttributeError: 'SystemMessage' object has no attribute 'at_list'
+
+2025-07-04 14:59:21 [wxauto] [DEBUG] [wx.py:208]  [friend text]获取到新消息：测试群 - [笑脸]
+2025-07-04 14:59:21 [wxauto] [DEBUG] [wx.py:54]  监听消息回调发生错误：Traceback (most recent call last):
+  File "D:\Python\Lib\site-packages\wxauto\wx.py", line 52, in _safe_callback
+    callback(msg, chat)
+  File "d:\oldSource\work-personal\wxauto\main.py", line 9, in on_message
+    print(msg.at_list)
+          ^^^^^^^^^^^
+AttributeError: 'FriendTextMessage' object has no attribute 'at_list'
+
+2025-07-04 14:59:38 [wxauto] [DEBUG] [wx.py:342]  wxauto("麦") shutdown
+2025-07-04 14:59:43 [wxauto] [DEBUG] [wx.py:31]  开始监听
+2025-07-04 14:59:44 [wxauto] [DEBUG] [sessionbox.py:63]  切换聊天窗口: 测试群, False, False, 0.5
+2025-07-04 14:59:45 [wxauto] [DEBUG] [main.py:190]  测试群 切换到聊天窗口: 测试群
+2025-07-04 14:59:45 [wxauto] [DEBUG] [sessionbox.py:147]  打开独立窗口: 测试群
+2025-07-04 14:59:45 [wxauto] [DEBUG] [sessionbox.py:151]  找到会话: 测试群
+2025-07-04 14:59:54 [wxauto] [DEBUG] [msg.py:80]  content: @麦 , length: 10
+2025-07-04 14:59:54 [wxauto] [DEBUG] [wx.py:208]  [system base]获取到新消息：测试群 - 以下为新消息
+2025-07-04 14:59:54 [wxauto] [DEBUG] [wx.py:54]  监听消息回调发生错误：Traceback (most recent call last):
+  File "D:\Python\Lib\site-packages\wxauto\wx.py", line 52, in _safe_callback
+    callback(msg, chat)
+  File "d:\oldSource\work-personal\wxauto\main.py", line 9, in on_message
+    print(msg.at_list)
+          ^^^^^^^^^^^
+AttributeError: 'SystemMessage' object has no attribute 'at_list'
+
+2025-07-04 14:59:54 [wxauto] [DEBUG] [wx.py:208]  [friend text]获取到新消息：测试群 - @麦 
+2025-07-04 14:59:54 [wxauto] [DEBUG] [wx.py:54]  监听消息回调发生错误：Traceback (most recent call last):
+  File "D:\Python\Lib\site-packages\wxauto\wx.py", line 52, in _safe_callback
+    callback(msg, chat)
+  File "d:\oldSource\work-personal\wxauto\main.py", line 9, in on_message
+    print(msg.at_list)
+          ^^^^^^^^^^^
+AttributeError: 'FriendTextMessage' object has no attribute 'at_list'
+
+2025-07-04 15:00:38 [wxauto] [DEBUG] [msg.py:80]  content: 在玩微信  可以屏蔽下群消息[憨笑], length: 8
+2025-07-04 15:00:38 [wxauto] [DEBUG] [wx.py:208]  [self text]获取到新消息：测试群 - 在玩微信  可以屏蔽下群消息[憨笑]
+2025-07-04 15:00:38 [wxauto] [DEBUG] [wx.py:54]  监听消息回调发生错误：Traceback (most recent call last):
+  File "D:\Python\Lib\site-packages\wxauto\wx.py", line 52, in _safe_callback
+    callback(msg, chat)
+  File "d:\oldSource\work-personal\wxauto\main.py", line 9, in on_message
+    print(msg.at_list)
+          ^^^^^^^^^^^
+AttributeError: 'SelfTextMessage' object has no attribute 'at_list'
+
+2025-07-04 15:00:48 [wxauto] [DEBUG] [msg.py:80]  content: [图片], length: 11
+2025-07-04 15:00:48 [wxauto] [DEBUG] [wx.py:208]  [self image]获取到新消息：测试群 - [图片]
+2025-07-04 15:00:48 [wxauto] [DEBUG] [wx.py:54]  监听消息回调发生错误：Traceback (most recent call last):
+  File "D:\Python\Lib\site-packages\wxauto\wx.py", line 52, in _safe_callback
+    callback(msg, chat)
+  File "d:\oldSource\work-personal\wxauto\main.py", line 9, in on_message
+    print(msg.at_list)
+          ^^^^^^^^^^^
+AttributeError: 'SelfImageMessage' object has no attribute 'at_list'
+
+2025-07-04 15:07:41 [wxauto] [DEBUG] [wx.py:342]  wxauto("麦") shutdown
+2025-07-04 15:09:33 [wxauto] [DEBUG] [wx.py:31]  开始监听
+2025-07-04 15:09:34 [wxauto] [DEBUG] [main.py:186]  测试群 获取到已存在的子窗口: <wxauto - WeChatSubWnd object("测试群")>
+2025-07-04 15:09:48 [wxauto] [DEBUG] [msg.py:80]  content: 1, length: 10
+2025-07-04 15:09:48 [wxauto] [DEBUG] [wx.py:208]  [system base]获取到新消息：测试群 - 以下为新消息
+2025-07-04 15:09:48 [wxauto] [DEBUG] [wx.py:54]  监听消息回调发生错误：Traceback (most recent call last):
+  File "D:\Python\Lib\site-packages\wxauto\wx.py", line 52, in _safe_callback
+    callback(msg, chat)
+  File "d:\oldSource\work-personal\wxauto\main.py", line 16, in on_message
+    for at_user in msg.at_list:
+                   ^^^^^^^^^^^
+AttributeError: 'SystemMessage' object has no attribute 'at_list'
+
+2025-07-04 15:09:48 [wxauto] [DEBUG] [wx.py:208]  [friend text]获取到新消息：测试群 - 1
+2025-07-04 15:09:48 [wxauto] [DEBUG] [wx.py:54]  监听消息回调发生错误：Traceback (most recent call last):
+  File "D:\Python\Lib\site-packages\wxauto\wx.py", line 52, in _safe_callback
+    callback(msg, chat)
+  File "d:\oldSource\work-personal\wxauto\main.py", line 16, in on_message
+    for at_user in msg.at_list:
+                   ^^^^^^^^^^^
+AttributeError: 'FriendTextMessage' object has no attribute 'at_list'
+
+2025-07-04 15:10:12 [wxauto] [DEBUG] [msg.py:80]  content: @麦 , length: 10
+2025-07-04 15:10:12 [wxauto] [DEBUG] [wx.py:208]  [system base]获取到新消息：测试群 - 以下为新消息
+2025-07-04 15:10:12 [wxauto] [DEBUG] [wx.py:54]  监听消息回调发生错误：Traceback (most recent call last):
+  File "D:\Python\Lib\site-packages\wxauto\wx.py", line 52, in _safe_callback
+    callback(msg, chat)
+  File "d:\oldSource\work-personal\wxauto\main.py", line 16, in on_message
+    for at_user in msg.at_list:
+                   ^^^^^^^^^^^
+AttributeError: 'SystemMessage' object has no attribute 'at_list'
+
+2025-07-04 15:10:12 [wxauto] [DEBUG] [wx.py:208]  [friend text]获取到新消息：测试群 - @麦 
+2025-07-04 15:10:12 [wxauto] [DEBUG] [wx.py:54]  监听消息回调发生错误：Traceback (most recent call last):
+  File "D:\Python\Lib\site-packages\wxauto\wx.py", line 52, in _safe_callback
+    callback(msg, chat)
+  File "d:\oldSource\work-personal\wxauto\main.py", line 16, in on_message
+    for at_user in msg.at_list:
+                   ^^^^^^^^^^^
+AttributeError: 'FriendTextMessage' object has no attribute 'at_list'
+
+2025-07-04 15:11:15 [wxauto] [DEBUG] [wx.py:342]  wxauto("麦") shutdown
+2025-07-04 15:18:28 [wxauto] [DEBUG] [wx.py:31]  开始监听
+2025-07-04 15:18:28 [wxauto] [DEBUG] [main.py:186]  测试群 获取到已存在的子窗口: <wxauto - WeChatSubWnd object("测试群")>
+2025-07-04 15:18:38 [wxauto] [DEBUG] [msg.py:80]  content: @麦 , length: 10
+2025-07-04 15:18:38 [wxauto] [DEBUG] [wx.py:208]  [system base]获取到新消息：测试群 - 以下为新消息
+2025-07-04 15:18:38 [wxauto] [DEBUG] [wx.py:54]  监听消息回调发生错误：Traceback (most recent call last):
+  File "D:\Python\Lib\site-packages\wxauto\wx.py", line 52, in _safe_callback
+    callback(msg, chat)
+  File "d:\oldSource\work-personal\wxauto\main.py", line 17, in on_message
+    if isinstance(msg, GroupMessage):
+                       ^^^^^^^^^^^^
+NameError: name 'GroupMessage' is not defined
+
+2025-07-04 15:18:38 [wxauto] [DEBUG] [wx.py:208]  [friend text]获取到新消息：测试群 - @麦 
+2025-07-04 15:18:38 [wxauto] [DEBUG] [wx.py:54]  监听消息回调发生错误：Traceback (most recent call last):
+  File "D:\Python\Lib\site-packages\wxauto\wx.py", line 52, in _safe_callback
+    callback(msg, chat)
+  File "d:\oldSource\work-personal\wxauto\main.py", line 17, in on_message
+    if isinstance(msg, GroupMessage):
+                       ^^^^^^^^^^^^
+NameError: name 'GroupMessage' is not defined
+
+2025-07-04 15:19:04 [wxauto] [DEBUG] [wx.py:342]  wxauto("麦") shutdown
+2025-07-04 15:19:10 [wxauto] [DEBUG] [wx.py:31]  开始监听
+2025-07-04 15:19:10 [wxauto] [DEBUG] [main.py:186]  测试群 获取到已存在的子窗口: <wxauto - WeChatSubWnd object("测试群")>
+2025-07-04 15:19:21 [wxauto] [DEBUG] [msg.py:80]  content: @麦 , length: 10
+2025-07-04 15:19:21 [wxauto] [DEBUG] [wx.py:208]  [system base]获取到新消息：测试群 - 以下为新消息
+2025-07-04 15:19:21 [wxauto] [DEBUG] [wx.py:208]  [friend text]获取到新消息：测试群 - @麦 
+2025-07-04 15:19:25 [wxauto] [DEBUG] [msg.py:80]  content: 你好 麦耀强🙈, length: 8
+2025-07-04 15:19:25 [wxauto] [DEBUG] [msg.py:80]  content: 你好 麦耀强🙈, length: 8
+2025-07-04 15:19:25 [wxauto] [DEBUG] [msg.py:80]  content: 你好 麦耀强🙈, length: 8
+2025-07-04 15:19:25 [wxauto] [DEBUG] [wx.py:208]  [self text]获取到新消息：测试群 - 你好 麦耀强🙈
+2025-07-04 15:19:25 [wxauto] [DEBUG] [wx.py:208]  [self text]获取到新消息：测试群 - 你好 麦耀强🙈
+2025-07-04 15:19:26 [wxauto] [DEBUG] [wx.py:208]  [self text]获取到新消息：测试群 - 你好 麦耀强🙈
+2025-07-04 15:19:43 [wxauto] [DEBUG] [msg.py:80]  content: @麦 @Mc-weiran🙈 , length: 10
+2025-07-04 15:19:43 [wxauto] [DEBUG] [wx.py:208]  [system base]获取到新消息：测试群 - 以下为新消息
+2025-07-04 15:19:43 [wxauto] [DEBUG] [wx.py:208]  [friend text]获取到新消息：测试群 - @麦 @Mc-weiran🙈 
+2025-07-04 15:19:46 [wxauto] [DEBUG] [msg.py:80]  content: 你好 麦耀强🙈, length: 8
+2025-07-04 15:19:46 [wxauto] [DEBUG] [msg.py:80]  content: 你好 麦耀强🙈, length: 8
+2025-07-04 15:19:46 [wxauto] [DEBUG] [msg.py:80]  content: 你好 麦耀强🙈, length: 8
+2025-07-04 15:19:46 [wxauto] [DEBUG] [wx.py:208]  [self text]获取到新消息：测试群 - 你好 麦耀强🙈
+2025-07-04 15:19:46 [wxauto] [DEBUG] [wx.py:208]  [self text]获取到新消息：测试群 - 你好 麦耀强🙈
+2025-07-04 15:19:46 [wxauto] [DEBUG] [wx.py:208]  [self text]获取到新消息：测试群 - 你好 麦耀强🙈
+2025-07-04 15:21:27 [wxauto] [DEBUG] [wx.py:342]  wxauto("麦") shutdown
+2025-07-04 15:21:33 [wxauto] [DEBUG] [wx.py:31]  开始监听
+2025-07-04 15:21:33 [wxauto] [DEBUG] [main.py:186]  测试群 获取到已存在的子窗口: <wxauto - WeChatSubWnd object("测试群")>
+2025-07-04 15:21:42 [wxauto] [DEBUG] [msg.py:80]  content: @麦 , length: 10
+2025-07-04 15:21:42 [wxauto] [DEBUG] [wx.py:208]  [system base]获取到新消息：测试群 - 以下为新消息
+2025-07-04 15:21:42 [wxauto] [DEBUG] [wx.py:208]  [friend text]获取到新消息：测试群 - @麦 
+2025-07-04 15:21:46 [wxauto] [DEBUG] [msg.py:80]  content: 你好 麦耀强🙈
+引用  的消息 : @麦 , length: 20
+2025-07-04 15:21:46 [wxauto] [DEBUG] [wx.py:208]  [self quote]获取到新消息：测试群 - 你好 麦耀强🙈
+2025-07-04 15:22:26 [wxauto] [DEBUG] [msg.py:80]  content: @哈哈 @麦哈哈哈, length: 10
+2025-07-04 15:22:26 [wxauto] [DEBUG] [wx.py:208]  [system base]获取到新消息：测试群 - 以下为新消息
+2025-07-04 15:22:26 [wxauto] [DEBUG] [wx.py:208]  [friend text]获取到新消息：测试群 - @哈哈 @麦哈哈哈
+2025-07-04 15:22:29 [wxauto] [DEBUG] [msg.py:80]  content: 你好 麦耀强🙈
+引用  的消息 : @哈哈 @麦哈哈哈, length: 20
+2025-07-04 15:22:29 [wxauto] [DEBUG] [wx.py:208]  [self quote]获取到新消息：测试群 - 你好 麦耀强🙈
+2025-07-04 15:26:47 [wxauto] [DEBUG] [wx.py:342]  wxauto("麦") shutdown
+2025-07-04 15:26:57 [wxauto] [DEBUG] [wx.py:31]  开始监听
+2025-07-04 15:26:57 [wxauto] [DEBUG] [sessionbox.py:63]  切换聊天窗口: 测试群, False, False, 0.5
+2025-07-04 15:26:59 [wxauto] [DEBUG] [main.py:190]  测试群 切换到聊天窗口: 测试群
+2025-07-04 15:26:59 [wxauto] [DEBUG] [sessionbox.py:147]  打开独立窗口: 测试群
+2025-07-04 15:27:00 [wxauto] [DEBUG] [sessionbox.py:151]  找到会话: 测试群
+2025-07-04 15:27:05 [wxauto] [DEBUG] [msg.py:80]  content: @哈哈 @麦哈哈哈, length: 10
+2025-07-04 15:27:05 [wxauto] [DEBUG] [wx.py:208]  [friend text]获取到新消息：测试群 - @哈哈 @麦哈哈哈
+2025-07-04 15:27:48 [wxauto] [DEBUG] [wx.py:342]  wxauto("麦") shutdown
+2025-07-04 15:27:54 [wxauto] [DEBUG] [wx.py:31]  开始监听
+2025-07-04 15:27:54 [wxauto] [DEBUG] [main.py:186]  测试群 获取到已存在的子窗口: <wxauto - WeChatSubWnd object("测试群")>
+2025-07-04 15:28:04 [wxauto] [DEBUG] [msg.py:80]  content: @哈哈 @麦哈哈哈, length: 10
+2025-07-04 15:28:04 [wxauto] [DEBUG] [wx.py:208]  [system base]获取到新消息：测试群 - 以下为新消息
+2025-07-04 15:28:04 [wxauto] [DEBUG] [wx.py:208]  [friend text]获取到新消息：测试群 - @哈哈 @麦哈哈哈
+2025-07-04 15:28:16 [wxauto] [DEBUG] [msg.py:80]  content: @麦 , length: 10
+2025-07-04 15:28:16 [wxauto] [DEBUG] [wx.py:208]  [system base]获取到新消息：测试群 - 以下为新消息
+2025-07-04 15:28:16 [wxauto] [DEBUG] [wx.py:208]  [friend text]获取到新消息：测试群 - @麦 
+2025-07-04 15:28:20 [wxauto] [DEBUG] [msg.py:80]  content: 你好 麦耀强🙈
+引用  的消息 : @麦 , length: 20
+2025-07-04 15:28:20 [wxauto] [DEBUG] [wx.py:208]  [self quote]获取到新消息：测试群 - 你好 麦耀强🙈
+2025-07-04 15:28:25 [wxauto] [DEBUG] [msg.py:80]  content: @麦 , length: 10
+2025-07-04 15:28:25 [wxauto] [DEBUG] [wx.py:208]  [system base]获取到新消息：测试群 - 以下为新消息
+2025-07-04 15:28:25 [wxauto] [DEBUG] [wx.py:208]  [friend text]获取到新消息：测试群 - @麦 
+2025-07-04 15:29:26 [wxauto] [DEBUG] [wx.py:342]  wxauto("麦") shutdown
+2025-07-04 15:29:31 [wxauto] [DEBUG] [wx.py:31]  开始监听
+2025-07-04 15:29:32 [wxauto] [DEBUG] [main.py:186]  测试群 获取到已存在的子窗口: <wxauto - WeChatSubWnd object("测试群")>
+2025-07-04 15:29:57 [wxauto] [DEBUG] [msg.py:80]  content: @麦 , length: 10
+2025-07-04 15:29:57 [wxauto] [DEBUG] [wx.py:208]  [system base]获取到新消息：测试群 - 以下为新消息
+2025-07-04 15:29:57 [wxauto] [DEBUG] [wx.py:208]  [friend text]获取到新消息：测试群 - @麦 
+2025-07-04 15:30:02 [wxauto] [DEBUG] [msg.py:80]  content: 你好 麦耀强🙈
+引用  的消息 : @麦 , length: 20
+2025-07-04 15:30:02 [wxauto] [DEBUG] [wx.py:208]  [self quote]获取到新消息：测试群 - 你好 麦耀强🙈
+2025-07-04 15:30:14 [wxauto] [DEBUG] [msg.py:80]  content: @麦 , length: 10
+2025-07-04 15:30:14 [wxauto] [DEBUG] [wx.py:208]  [system base]获取到新消息：测试群 - 以下为新消息
+2025-07-04 15:30:14 [wxauto] [DEBUG] [wx.py:208]  [friend text]获取到新消息：测试群 - @麦 
+2025-07-04 15:30:33 [wxauto] [DEBUG] [msg.py:80]  content: @Mc-weiran🙈 @麦 哈哈啊哈哈, length: 10
+2025-07-04 15:30:33 [wxauto] [DEBUG] [wx.py:208]  [friend text]获取到新消息：测试群 - @Mc-weiran🙈 @麦 哈哈啊哈哈
+2025-07-04 15:30:36 [wxauto] [DEBUG] [msg.py:80]  content: 你好 麦耀强🙈
+引用  的消息 : @Mc-weiran🙈 @麦 哈哈啊哈哈, length: 20
+2025-07-04 15:30:36 [wxauto] [DEBUG] [wx.py:208]  [self quote]获取到新消息：测试群 - 你好 麦耀强🙈
+2025-07-04 15:33:37 [wxauto] [DEBUG] [wx.py:342]  wxauto("麦") shutdown
