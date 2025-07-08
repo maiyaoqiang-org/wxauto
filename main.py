@@ -57,25 +57,32 @@ def on_message(msg, chat):
     current_nickname = wx.nickname
     if f"@{current_nickname}\u2005" in msg.content:
         sender_name = msg.sender
-        # 打印群名 用户名 用户回复信息  时间  弄好看点  打印如下
-        # 群名 2025-07-08 10:10:10
-        # 用户名: 内容
-        print(f"{chat.who} {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
-        print(f"{sender_name}:{msg.content}")
-        print("=" * 30)  # 分隔线
+        try:
+            print(f"调试4 - chat.who: {chat.who}")
+            print(f"{chat.who} {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+            print(f"{sender_name}:{msg.content}")
+            print("=" * 30)
 
-        if "coze回答" in msg.content:
-            reply_content = get_coze_reply_content(msg.content, chat)
-        elif "api 回答" in msg.content:
-            reply_content = get_reply_content(msg.content)
-        elif "测试群" in chat.who:
-            reply_content = get_reply_content(msg.content)
-        elif "梦战测试群" in chat.who:
-            reply_content = get_coze_reply_content(msg.content, chat)
-        else:
-            reply_content = get_reply_content(msg.content)
-
-        msg.quote(reply_content)
+            try:
+                if "coze回答" in msg.content:
+                    reply_content = get_coze_reply_content(msg.content, chat)
+                elif "api 回答" in msg.content:
+                    reply_content = get_reply_content(msg.content)
+                elif "测试群" in chat.who:
+                    reply_content = get_reply_content(msg.content)
+                elif "梦战测试群" in chat.who:
+                    reply_content = get_coze_reply_content(msg.content, chat)
+                else:
+                    reply_content = get_reply_content(msg.content)
+                
+                print(f"调试5 - 准备引用回复: {reply_content}")
+                msg.quote(reply_content)
+                print("调试6 - 引用回复完成")
+            except Exception as e:
+                print(f"获取回复内容时出错: {e}")
+                
+        except Exception as e:
+            print(f"打印日志时出错: {e}")
 
 class CozeClient:
     def __init__(self, token: str, bot_id: str, base_url=COZE_CN_BASE_URL):
