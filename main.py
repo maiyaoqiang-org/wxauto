@@ -34,8 +34,8 @@ def on_message(msg, chat):
         # 如果content里面包含"coze回答" 则使用on_message_coze
         if "coze回答" in msg.content:
             reply_content = on_message_coze(msg,chat)
-        # 如果content里面包含"api回答" 则使用on_message_api
-        if "api回答" in msg.content:
+        # 否则就用api回答
+        else:
             reply_content = on_message_api(msg,chat)
             
         msg.quote(reply_content)
