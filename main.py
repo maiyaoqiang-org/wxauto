@@ -33,7 +33,6 @@ def get_reply_content(msg_content):
         response_data = response.json()
 
         if response.status_code in (200, 201):
-            print(response_data)
             reply_content = response_data.get("replyContent", "收到消息")
             if not reply_content:
                 reply_content = response_data.get("replyContent", "收到消息")
