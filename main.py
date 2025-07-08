@@ -31,7 +31,7 @@ def get_reply_content(msg_content):
     try:
         response = requests.post(api_url, json=payload)
         response_data = response.json()
-        
+
         if response.status_code in (200, 201):
             print(response_data)
             reply_content = response_data.get("replyContent", "收到消息")
@@ -40,7 +40,7 @@ def get_reply_content(msg_content):
             return reply_content
         else:
             return response_data.get("replyContent", "处理消息时出错")
-            
+
     except Exception as e:
         print(f"API调用出错: {e}")
         return "服务暂时不可用，请稍后再试"
@@ -66,16 +66,22 @@ def on_message(msg, chat):
 
         if "coze回答" in msg.content:
             reply_content = get_coze_reply_content(msg.content, chat)
+        else if "api 回答" in msg.content:
+            reply_content = get_reply_content(msg.content, chat)
+        else if "测试群" in chat.who:
+            reply_content = get_reply_content(msg.content, chat)
+        else if "梦战测试群" in chat.who:
+            reply_content = get_coze_reply_content(msg.content, chat)
         else:
             reply_content = get_reply_content(msg.content)
-            
+
         msg.quote(reply_content)
 
 class CozeClient:
     def __init__(self, token: str, bot_id: str, base_url=COZE_CN_BASE_URL):
         self.client = Coze(auth=TokenAuth(token=token), base_url=base_url)
         self.bot_id = bot_id
-        
+
     def chat(self, user_id: str, content: str) -> str:
         """
         与Coze聊天并获取完整回复
@@ -93,7 +99,7 @@ class CozeClient:
         ):
             if event.event == ChatEventType.CONVERSATION_MESSAGE_DELTA:
                 full_response += event.message.content
-                
+
         return full_response
 
 # 初始化Coze客户端
