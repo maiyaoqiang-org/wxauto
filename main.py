@@ -3,6 +3,7 @@ import requests  # 新增导入
 from cozepy import Coze, TokenAuth, Message, ChatEventType, COZE_CN_BASE_URL
 import queue
 import threading
+import datetime
 wx = WeChat()
 # 创建消息队列和处理线程
 message_queue = queue.Queue()
@@ -24,49 +25,51 @@ def process_messages():
             message_queue.task_done()
 
 
+def get_reply_content(msg_content):
+    api_url = "https://maiyaoqiang.fun/api/openai/chat/1"
+    payload = {"content": msg_content}
+    try:
+        response = requests.post(api_url, json=payload)
+        response_data = response.json()
+        
+        if response.status_code in (200, 201):
+            print(response_data)
+            reply_content = response_data.get("replyContent", "收到消息")
+            if not reply_content:
+                reply_content = response_data.get("replyContent", "收到消息")
+            return reply_content
+        else:
+            return response_data.get("replyContent", "处理消息时出错")
+            
+    except Exception as e:
+        print(f"API调用出错: {e}")
+        return "服务暂时不可用，请稍后再试"
+
+def get_coze_reply_content(msg_content, chat):
+    user_id = str(hash(chat.who))
+    try:
+        return coze_client.chat(user_id, msg_content)
+    except Exception as e:
+        print(f"调用Coze API出错: {e}")
+        return "服务暂时不可用，请稍后再试"
+
 def on_message(msg, chat):
     current_nickname = wx.nickname
     if f"@{current_nickname}\u2005" in msg.content:
         sender_name = msg.sender
-        print(sender_name + " 发送消息：" + msg.content)
-        api_url = "https://maiyaoqiang.fun/api/openai/chat/1"
-        payload = {"content": msg.content}
-        
-        try:
-            response = requests.post(api_url, json=payload)
-            response_data = response.json()
-            
-            if response.status_code in (200, 201):
-                print(response_data)
-                reply_content = response_data.get("replyContent", "收到消息")
-                if not reply_content:
-                    reply_content = response_data.get("replyContent", "收到消息")
-            else:
-                # 处理其他错误情况
-                reply_content = response_data.get("replyContent", "处理消息时出错")
-                
-        except Exception as e:
-            print(f"API调用出错: {e}")
-            reply_content = "服务暂时不可用，请稍后再试"
+        # 打印群名 用户名 用户回复信息  时间  弄好看点  打印如下
+        # 群名 2025-07-08 10:10:10
+        # 用户名: 内容
+        print(f"{chat.who} {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+        print(f"{sender_name}:{msg.content}")
+        print("=" * 30)  # 分隔线
+
+        if "coze回答" in msg.content:
+            reply_content = get_coze_reply_content(msg.content, chat)
+        else:
+            reply_content = get_reply_content(msg.content)
             
         msg.quote(reply_content)
-
-
-# def on_message(msg, chat):
-#     current_nickname = wx.nickname
-#     if f"@{current_nickname}\u2005" in msg.content:
-#         sender_name = msg.sender
-#         print(sender_name + " 发送消息：" + msg.content)
-#         user_id = str(hash(sender_name))  # 使用发送者名称的哈希作为user_id
-        
-#         try:
-#             # 调用Coze API获取回复
-#             reply_content = coze_client.chat(user_id, msg.content)
-#         except Exception as e:
-#             print(f"调用Coze API出错: {e}")
-#             reply_content = "服务暂时不可用，请稍后再试"
-            
-#         msg.quote(reply_content)
 
 class CozeClient:
     def __init__(self, token: str, bot_id: str, base_url=COZE_CN_BASE_URL):
