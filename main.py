@@ -66,11 +66,11 @@ def on_message(msg, chat):
 
         if "coze回答" in msg.content:
             reply_content = get_coze_reply_content(msg.content, chat)
-        else if "api 回答" in msg.content:
+        elif "api 回答" in msg.content:
             reply_content = get_reply_content(msg.content, chat)
-        else if "测试群" in chat.who:
+        elif "测试群" in chat.who:
             reply_content = get_reply_content(msg.content, chat)
-        else if "梦战测试群" in chat.who:
+        elif "梦战测试群" in chat.who:
             reply_content = get_coze_reply_content(msg.content, chat)
         else:
             reply_content = get_reply_content(msg.content)
