@@ -1,8 +1,11 @@
 from wxauto import WeChat
 import requests  # 新增导入
 from cozepy import Coze, TokenAuth, Message, ChatEventType, COZE_CN_BASE_URL
-
+import queue
+import threading
 wx = WeChat()
+# 创建消息队列和处理线程
+message_queue = queue.Queue()
 
 def log(msg):
     print("\n--- Iterating through attributes and types ---")
@@ -11,6 +14,15 @@ def log(msg):
         if not attr_name.startswith('__'):
             attr_value = getattr(msg, attr_name)
             print(f"Attribute: {attr_name}, Value: {attr_value}, Type: {type(attr_value)}")
+
+def process_messages():
+    while True:
+        msg, chat = message_queue.get()
+        try:
+           on_message(msg,chat)
+        finally:
+            message_queue.task_done()
+
 
 def on_message(msg, chat):
     current_nickname = wx.nickname
