@@ -102,7 +102,7 @@ coze_client = CozeClient(COZE_API_TOKEN, COZE_BOT_ID)
 # 监听群名为"测试群"
 wx.AddListenChat(nickname="测试群", callback=on_message)
 
-wx.AddListenChat(nickname="测试2群", callback=on_message)
+wx.AddListenChat(nickname="梦战测试群", callback=on_message)
 
 # 保持程序运行
 wx.KeepRunning()
