@@ -12,49 +12,49 @@ def log(msg):
             attr_value = getattr(msg, attr_name)
             print(f"Attribute: {attr_name}, Value: {attr_value}, Type: {type(attr_value)}")
 
-# def on_message(msg, chat):
-#     current_nickname = wx.nickname
-#     if f"@{current_nickname}\u2005" in msg.content:
-#         sender_name = msg.sender
-#         print(sender_name + " 发送消息：" + msg.content)
-#         api_url = "https://maiyaoqiang.fun/api/openai/chat/1"
-#         payload = {"content": msg.content}
-        
-#         try:
-#             response = requests.post(api_url, json=payload)
-#             response_data = response.json()
-            
-#             if response.status_code in (200, 201):
-#                 print(response_data)
-#                 reply_content = response_data.get("replyContent", "收到消息")
-#                 if not reply_content:
-#                     reply_content = response_data.get("replyContent", "收到消息")
-#             else:
-#                 # 处理其他错误情况
-#                 reply_content = response_data.get("replyContent", "处理消息时出错")
-                
-#         except Exception as e:
-#             print(f"API调用出错: {e}")
-#             reply_content = "服务暂时不可用，请稍后再试"
-            
-#         msg.quote(reply_content)
-
-
 def on_message(msg, chat):
     current_nickname = wx.nickname
     if f"@{current_nickname}\u2005" in msg.content:
         sender_name = msg.sender
         print(sender_name + " 发送消息：" + msg.content)
-        user_id = str(hash(sender_name))  # 使用发送者名称的哈希作为user_id
+        api_url = "https://maiyaoqiang.fun/api/openai/chat/1"
+        payload = {"content": msg.content}
         
         try:
-            # 调用Coze API获取回复
-            reply_content = coze_client.chat(user_id, msg.content)
+            response = requests.post(api_url, json=payload)
+            response_data = response.json()
+            
+            if response.status_code in (200, 201):
+                print(response_data)
+                reply_content = response_data.get("replyContent", "收到消息")
+                if not reply_content:
+                    reply_content = response_data.get("replyContent", "收到消息")
+            else:
+                # 处理其他错误情况
+                reply_content = response_data.get("replyContent", "处理消息时出错")
+                
         except Exception as e:
-            print(f"调用Coze API出错: {e}")
+            print(f"API调用出错: {e}")
             reply_content = "服务暂时不可用，请稍后再试"
             
         msg.quote(reply_content)
+
+
+# def on_message(msg, chat):
+#     current_nickname = wx.nickname
+#     if f"@{current_nickname}\u2005" in msg.content:
+#         sender_name = msg.sender
+#         print(sender_name + " 发送消息：" + msg.content)
+#         user_id = str(hash(sender_name))  # 使用发送者名称的哈希作为user_id
+        
+#         try:
+#             # 调用Coze API获取回复
+#             reply_content = coze_client.chat(user_id, msg.content)
+#         except Exception as e:
+#             print(f"调用Coze API出错: {e}")
+#             reply_content = "服务暂时不可用，请稍后再试"
+            
+#         msg.quote(reply_content)
 
 class CozeClient:
     def __init__(self, token: str, bot_id: str, base_url=COZE_CN_BASE_URL):
@@ -89,6 +89,8 @@ coze_client = CozeClient(COZE_API_TOKEN, COZE_BOT_ID)
 # 添加监听，监听到的消息用on_message函数进行处理
 # 监听群名为"测试群"
 wx.AddListenChat(nickname="测试群", callback=on_message)
+
+wx.AddListenChat(nickname="测试2群", callback=on_message)
 
 # 保持程序运行
 wx.KeepRunning()
