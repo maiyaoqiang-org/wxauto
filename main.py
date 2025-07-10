@@ -1,12 +1,19 @@
 from wxauto import WeChat
 import requests  # 新增导入
+import csv
+import os
+from datetime import datetime
+
 from cozepy import Coze, TokenAuth, Message, ChatEventType, COZE_CN_BASE_URL
 import queue
 import threading
-import datetime
 wx = WeChat()
 # 创建消息队列和处理线程
 message_queue = queue.Queue()
+
+# 创建日志目录
+LOG_DIR = "chats.log"
+os.makedirs(LOG_DIR, exist_ok=True)
 
 def log(msg):
     print("\n--- Iterating through attributes and types ---")
@@ -53,6 +60,14 @@ def get_coze_reply_content(msg_content, chat):
         return "服务暂时不可用，请稍后再试"
 
 def on_message(msg, chat):
+    try:
+        # 记录所有消息
+        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        save_message_to_csv(msg, chat)
+    except Exception as e:
+        print(f"保存消息到CSV文件出错: {e}")
+
+
     current_nickname = wx.nickname
     if f"@{current_nickname}\u2005" in msg.content:
         sender_name = msg.sender
@@ -113,11 +128,54 @@ COZE_API_TOKEN = 'pat_cwqlh4X5fvEdShfjghm0OSX4Qo5EnPrz93nYsbDLOTCkVe5c9lRdeU9F0W
 COZE_BOT_ID = '7524160519495270443'
 coze_client = CozeClient(COZE_API_TOKEN, COZE_BOT_ID)
 
-# 添加监听，监听到的消息用on_message函数进行处理
-# 监听群名为"测试群"
-wx.AddListenChat(nickname="测试群", callback=on_message)
+def save_message_to_csv(msg, chat):
+    """保存消息到CSV文件，按群分组保存"""
+    # 过滤系统消息
+    if hasattr(msg, 'attr') and msg.attr == 'system':
+        return
+        
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    
+    # 获取群组名称作为子目录
+    group_name = chat.who.replace(" ", "_").replace("\\", "_").replace("/", "_")
+    group_dir = os.path.join(LOG_DIR, group_name)
+    os.makedirs(group_dir, exist_ok=True)
+    
+    # 获取当前小时作为文件名
+    hour_str = datetime.now().strftime("%Y%m%d_%H")
+    filename = f"{group_dir}/chat_{hour_str}.csv"
+    
+    # 文件字段
+    fieldnames = ["timestamp", "sender", "content"]
+    
+    # 写入文件
+    file_exists = os.path.exists(filename)
+    with open(filename, mode="a", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        
+        if not file_exists:
+            writer.writeheader()
+            
+        writer.writerow({
+            "timestamp": timestamp,
+            "sender": msg.sender,
+            "content": msg.content
+        })
 
-wx.AddListenChat(nickname="梦战测试群", callback=on_message)
 
+# 需要监听的群组列表
+GROUP_LIST = [
+    # "测试群",
+    # "梦战测试群", 
+    "墨源梦战粉丝交流群",
+    "墨源梦战交流群"
+]
+
+print("程序启动成功，开始监听...")
+print(f"监听的群组: {GROUP_LIST}")
+
+# 添加群组监听
+for group_name in GROUP_LIST:
+    wx.AddListenChat(nickname=group_name, callback=on_message)
 # 保持程序运行
 wx.KeepRunning()
